@@ -1,0 +1,15 @@
+.container {
+    background-color: #2C2B30;
+    width: fit-content;
+}
+
+svg {
+    fill: #FFFFFF;
+    width: 25px;
+    height: 25px;
+}
+
+span {
+    color: #FFFFFF;
+    font-weight: 400;
+}

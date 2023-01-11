@@ -1,0 +1,36 @@
+.legend {
+    background-color: #2C2B30;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.legend-dot {
+    width: 10px;
+    height: 10px;
+}
+
+.legend-text {
+    color: #fff;
+    font-size: 12px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.scroll-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll-wrapper > div {
+    flex: 0 0 auto;
+}
+
+.scroll-wrapper.col {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
